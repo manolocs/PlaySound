@@ -9,6 +9,10 @@
 import UIKit
 import AVFoundation
 
+var picsPlayer = ["song1", "song2", "song3", "song4"]
+var myIndexPics = 0
+
+
 class ViewController: UIViewController {
 
     var player: AVAudioPlayer = AVAudioPlayer()
@@ -23,7 +27,7 @@ class ViewController: UIViewController {
        
         do
         {
-            let audioPath = Bundle.main.path(forResource: "song", ofType: "mp3")
+            let audioPath = Bundle.main.path(forResource: "song1", ofType: "mp3")
             try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
             
         }
