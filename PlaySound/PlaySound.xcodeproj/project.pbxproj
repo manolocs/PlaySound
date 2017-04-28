@@ -14,6 +14,8 @@
 		091E0AA51EAF4137001F99BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 091E0AA31EAF4137001F99BB /* LaunchScreen.storyboard */; };
 		091E0AB01EAF4137001F99BB /* PlaySoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091E0AAF1EAF4137001F99BB /* PlaySoundTests.swift */; };
 		091E0ABB1EAF4137001F99BB /* PlaySoundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091E0ABA1EAF4137001F99BB /* PlaySoundUITests.swift */; };
+		091E0ACA1EAF422D001F99BB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091E0AC91EAF422D001F99BB /* AVFoundation.framework */; };
+		098247541EB3D44C00D47E28 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 098247531EB3D44C00D47E28 /* song.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		091E0AB61EAF4137001F99BB /* PlaySoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaySoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		091E0ABA1EAF4137001F99BB /* PlaySoundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundUITests.swift; sourceTree = "<group>"; };
 		091E0ABC1EAF4137001F99BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		091E0AC91EAF422D001F99BB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		098247531EB3D44C00D47E28 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				091E0ACA1EAF422D001F99BB /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				091E0AAE1EAF4137001F99BB /* PlaySoundTests */,
 				091E0AB91EAF4137001F99BB /* PlaySoundUITests */,
 				091E0A981EAF4137001F99BB /* Products */,
+				091E0AC81EAF422D001F99BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +109,7 @@
 				091E0AA11EAF4137001F99BB /* Assets.xcassets */,
 				091E0AA31EAF4137001F99BB /* LaunchScreen.storyboard */,
 				091E0AA61EAF4137001F99BB /* Info.plist */,
+				098247531EB3D44C00D47E28 /* song.mp3 */,
 			);
 			path = PlaySound;
 			sourceTree = "<group>";
@@ -123,6 +130,14 @@
 				091E0ABC1EAF4137001F99BB /* Info.plist */,
 			);
 			path = PlaySoundUITests;
+			sourceTree = "<group>";
+		};
+		091E0AC81EAF422D001F99BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				091E0AC91EAF422D001F99BB /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				091E0AA51EAF4137001F99BB /* LaunchScreen.storyboard in Resources */,
+				098247541EB3D44C00D47E28 /* song.mp3 in Resources */,
 				091E0AA21EAF4137001F99BB /* Assets.xcassets in Resources */,
 				091E0AA01EAF4137001F99BB /* Main.storyboard in Resources */,
 			);
@@ -516,6 +532,7 @@
 				091E0AC11EAF4137001F99BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		091E0AC21EAF4137001F99BB /* Build configuration list for PBXNativeTarget "PlaySoundTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +541,7 @@
 				091E0AC41EAF4137001F99BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		091E0AC51EAF4137001F99BB /* Build configuration list for PBXNativeTarget "PlaySoundUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +550,7 @@
 				091E0AC71EAF4137001F99BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
