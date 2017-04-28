@@ -31,8 +31,15 @@ class ViewController: UIViewController {
        
         do
         {
-            let audioPath = Bundle.main.path(forResource: "song1", ofType: "mp3")
-            try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
+// This is the original code working with only one song: song1
+//            let audioPath = Bundle.main.path(forResource: "song1", ofType: "mp3")
+//            try player = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
+
+            
+// Attempt to use array picsPlayer to listen all musics.
+            let audioPath = Bundle.main.path(forAuxiliaryExecutable: picsPlayer[myIndexPics])
+            try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
+
             
         }
         catch
