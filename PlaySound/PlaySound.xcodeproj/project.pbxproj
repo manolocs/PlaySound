@@ -19,6 +19,7 @@
 		0982476D1EB3D79800D47E28 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 098247691EB3D79800D47E28 /* song2.mp3 */; };
 		0982476E1EB3D79800D47E28 /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0982476A1EB3D79800D47E28 /* song3.mp3 */; };
 		0982476F1EB3D79800D47E28 /* song4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0982476B1EB3D79800D47E28 /* song4.mp3 */; };
+		098247731EB3DAFD00D47E28 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098247721EB3DAFD00D47E28 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		098247691EB3D79800D47E28 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
 		0982476A1EB3D79800D47E28 /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = "<group>"; };
 		0982476B1EB3D79800D47E28 /* song4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song4.mp3; sourceTree = "<group>"; };
+		098247721EB3DAFD00D47E28 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				091E0A9A1EAF4137001F99BB /* AppDelegate.swift */,
 				091E0A9C1EAF4137001F99BB /* ViewController.swift */,
 				091E0A9E1EAF4137001F99BB /* Main.storyboard */,
+				098247721EB3DAFD00D47E28 /* TableViewController.swift */,
 				091E0AA11EAF4137001F99BB /* Assets.xcassets */,
 				091E0AA31EAF4137001F99BB /* LaunchScreen.storyboard */,
 				091E0AA61EAF4137001F99BB /* Info.plist */,
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				091E0A9D1EAF4137001F99BB /* ViewController.swift in Sources */,
+				098247731EB3DAFD00D47E28 /* TableViewController.swift in Sources */,
 				091E0A9B1EAF4137001F99BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

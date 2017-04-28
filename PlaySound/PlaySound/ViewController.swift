@@ -17,6 +17,7 @@ class ViewController: UIViewController {
 
     var player: AVAudioPlayer = AVAudioPlayer()
 
+    @IBOutlet weak var titleLabel: UILabel!
     @IBAction func playButton(_ sender: AnyObject) {
         player.play()
     }
@@ -24,6 +25,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        titleLabel.text = names[myIndex]
+        
        
         do
         {
